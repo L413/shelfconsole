@@ -1,0 +1,105 @@
+{
+  "commands": {
+    "alert": {},
+    "help": {},
+    "cc": {},
+    "clear": {},
+    "date": {},
+    "echo": {},
+    "app": {
+      "-l": {},
+      "-list": {}
+    },
+    "hostname": {},
+    "reload": {},
+    "r": {},
+    "shutdown": {},
+    "title": {
+      "-r": {}
+    },
+    "set": {},
+    "print": {},
+    "del": {
+      "-a": {}
+    },
+    "bit": {},
+    "fullscreen": {},
+    "fs": {},
+    "os": {},
+    "ip": {},
+    "changelog": {
+      "-l": {},
+      "-latest": {}
+    },
+
+    "theme": {
+      "default": {},
+      "shell": {},
+      "cmd": {},
+      "cmd3": {},
+      "mac": {},
+      "weird": {},
+      "brsi": {},
+      "bright": {},
+      "inverted": {},
+      "titan": {},
+      "shelf": {},
+      "solarlight": {},
+      "solardark": {},
+      "ocean": {},
+      "pastel": {},
+      "forest": {},
+      "sunset": {},
+      "monochrome": {},
+      "retro": {},
+      "night": {},
+      "crimson": {},
+      "emerald": {},
+      "sapphire": {},
+      "tangerine": {},
+      "turquoise": {},
+      "cocoa": {},
+      "steel": {},
+      "berry": {},
+      "nebula": {},
+      "lava": {},
+      "aurora": {},
+      "rose": {},
+      "midnight": {},
+      "oasis": {},
+      "platinum": {},
+      "sus": {},
+      "skyline": {},
+      "mystic": {},
+      "sunflower": {},
+      "velvet": {},
+      "galaxy": {},
+      "mint": {},
+      "pearl": {},
+      "glacier": {},
+      "bubblegum": {},
+      "safari": {},
+      "caramel": {},
+      "royal": {},
+      "-r": {},
+      "-l": {},
+      "-list": {}
+    },
+    "cam": {},
+    "popout": {},
+    "qr": {},
+    "short": {},
+    "weather": {},
+    "watch": {
+      "-l": {},
+      "-list": {},
+      "weather": {},
+      "date": {}
+    },
+    "clients": {},
+    "sudo": {
+      "-": {},
+      "exit": {}
+    }
+  }
+}

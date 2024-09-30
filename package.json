@@ -1,0 +1,17 @@
+{
+  "name": "shelf-console",
+  "version": "2.11.218",
+  "main": "server.js",
+  "scripts": {
+    "start": "node update-watch-config.js && node update-version.js && node server.js",
+    "predeploy": "node update-version.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "node-fetch": "^2.7.0",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}

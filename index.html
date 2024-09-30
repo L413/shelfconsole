@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="screensaver"></div>
+    <div class="command-promt">
+      <div id="tag"></div>
+      <div class="container">
+        <div id="pre-container"></div>
+        <div id="input-container">
+          <div class="prompt">&gt; $</div>
+          <div class="input-wrapper">
+            <input
+              class="input"
+              id="input"
+              autofocus
+              spellcheck="false"
+              autocomplete="off"
+              autocapitalize="none"
+            />
+            <div class="caret"></div>
+          </div>
+        </div>
+        <div class="suggestions-container"></div>
+      </div>
+    </div>
+    <script src="scripts/api.js"></script>
+    <script src="scripts/camera.js"></script>
+    <script src="scripts/autofill.js"></script>
+    <script src="scripts/functions.js"></script>
+    <script src="scripts/modular.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

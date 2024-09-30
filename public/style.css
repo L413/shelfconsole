@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=JetBrains+Mono:wght@400;500&family=Roboto+Mono:wght@400&family=Source+Code+Pro:wght@400&family=Inconsolata:wght@400&family=IBM+Plex+Mono:wght@400&family=Anonymous+Pro:wght@400&display=swap');
+
+:root {
+  --main-color: lime;
+  --second-color: darkgreen;
+  --bg-color: black;
+  --caret-color: rgba(0, 255, 0, 0.75);
+  --font-family: monospace;
+}
+
+body {
+  background: var(--bg-color);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-y: auto;
+  scrollbar-width: 0;
+}
+
+*::-moz-selection {
+  /* Code for Firefox */
+  background: var(--second-color);
+}
+
+*::selection {
+  background: var(--second-color);
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.command-promt {
+  width: 100%;
+  height: 100%;
+  color: var(--main-color);
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.input {
+  background-color: transparent;
+  color: var(--main-color);
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: var(--font-family);
+  font-size: 16px;
+  caret-color: transparent;
+  position: relative;
+}
+
+.caret {
+  position: absolute;
+  width: 10px;
+  height: 1.15em;
+  background-color: var(--caret-color);
+  animation: blink 1s steps(1) infinite; /* Blinking effect */
+  display: none; /* Hidden initially */
+  top: 5%;
+}
+
+#tag {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 10px;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.output {
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+#pre-container {
+  margin-right: 20px;
+  text-indent: 22px;
+  color: var(--main-color);
+  overflow-wrap: break-word;
+}
+#pre-container > div {
+  text-indent: -1;
+  padding-left: 24px;
+}
+
+.prompt {
+  color: var(--main-color);
+  margin-left: -15px;
+  margin-right: 8px;
+  cursor: default;
+  white-space: nowrap;
+  width: 28px;
+}
+
+table {
+  color: var(--main-color);
+  font-size: 16px;
+  margin: 0;
+  border: none;
+  padding: 0;
+  text-align: left;
+}
+
+td {
+  line-height: 1.5;
+  width: 20%;
+}
+
+.prompt::selection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: none;
+}
+
+#pre-container > div > a {
+  color: var(--second-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.suggestions-container {
+  position: absolute;
+  background: none;
+  max-height: 100px;
+  overflow-y: auto;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.suggestion {
+  color: var(--main-color);
+  padding: 0;
+  background: var(--bg-color);
+  filter: invert(15%);
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  background: var(--second-color);
+}
+
+.suggestion.highlight {
+  background: var(--second-color);
+}
+
+#screensaver {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+}

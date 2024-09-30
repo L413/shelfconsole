@@ -1,0 +1,102 @@
+[
+  {
+    "command": "alert <text>",
+    "description": "Alert message"
+  },
+  {
+    "command": "app <app_name>",
+    "description": "Launch application [-list for list of apps]"
+  },
+  {
+    "command": "clear | cc",
+    "description": "Clear console"
+  },
+  {
+    "command": "date",
+    "description": "Display date and time"
+  },
+  {
+    "command": "echo <text>",
+    "description": "Output message"
+  },
+  {
+    "command": "hostname",
+    "description": "Display hostname"
+  },
+  {
+    "command": "reload | r",
+    "description": "Clear console and reprint"
+  },
+  {
+    "command": "shutdown",
+    "description": "Close window"
+  },
+  {
+    "command": "title <text>",
+    "description": "Set window title for this session [-r to reset]"
+  },
+  {
+    "command": "set <name> <data>",
+    "description": "Set local variable [-list for list of variables]"
+  },
+  {
+    "command": "print <name>",
+    "description": "Print local variable"
+  },
+  {
+    "command": "del <name>",
+    "description": "Delete local variable [-a to delete all]"
+  },
+  {
+    "command": "bit",
+    "description": "Display value of bitcoin"
+  },
+  {
+    "command": "fullscreen | fs",
+    "description": "Toggle fullscreen"
+  },
+  {
+    "command": "os",
+    "description": "Display device operating system"
+  },
+  {
+    "command": "ip",
+    "description": "Display device ip"
+  },
+  {
+    "command": "changelog",
+    "description": "Display changelog [-latest most recent update]"
+  },
+  {
+    "command": "theme <name>",
+    "description": "Change theme [-r to reset] [-list for list of themes]"
+  },
+  {
+    "command": "cam <int> <int>",
+    "description": "Displays NYC security cameras"
+  },
+  {
+    "command": "popout",
+    "description": "Pops out the window to CMD size."
+  },
+  {
+    "command": "qr <url>",
+    "description": "Outputs a QR code from a link."
+  },
+  {
+    "command": "short <url>",
+    "description": "Outputs a shortened url"
+  },
+  {
+    "command": "weather <zipcode>",
+    "description": "Outputs temperature via zipcode"
+  },
+  {
+    "command": "watch <api>",
+    "description": "Notify the user when certain apis are updated. [-list for list of watchable apis]"
+  },
+  {
+    "command": "clients",
+    "description": "Lists number of clients connected to the site."
+  }
+]
