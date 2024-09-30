@@ -1,0 +1,386 @@
+[
+  {
+    "name": "default",
+    "main-color": "lime",
+    "second-color": "darkgreen",
+    "bg-color": "black",
+    "caret-color": "rgba(0, 255, 0, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "shell",
+    "main-color": "lightblue",
+    "second-color": "blue",
+    "bg-color": "darkblue",
+    "caret-color": "rgba(173, 216, 230, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "cmd",
+    "main-color": "white",
+    "second-color": "rgb(128, 128, 128)",
+    "bg-color": "black",
+    "caret-color": "rgba(255, 255, 255, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "cmd3",
+    "main-color": "white",
+    "second-color": "rgb(128, 128, 128)",
+    "bg-color": "blue",
+    "caret-color": "rgba(255, 255, 255, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "mac",
+    "main-color": "#203662",
+    "second-color": "rgb(200, 255, 255)",
+    "bg-color": "#30d5f2",
+    "caret-color": "rgba(32, 54, 98, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "weird",
+    "main-color": "yellow",
+    "second-color": "orange",
+    "bg-color": "black",
+    "caret-color": "rgba(255, 255, 0, 0.75)",
+    "font": "'Anonymous Pro', monospace"
+  },
+  {
+    "name": "brsi",
+    "main-color": "red",
+    "second-color": "darkred",
+    "bg-color": "black",
+    "caret-color": "rgba(255, 0, 0, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "bright",
+    "main-color": "black",
+    "second-color": "grey",
+    "bg-color": "white",
+    "caret-color": "rgba(0, 0, 0, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "inverted",
+    "main-color": "black",
+    "second-color": "darkgreen",
+    "bg-color": "lime",
+    "caret-color": "rgba(0, 0, 0, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "titan",
+    "main-color": "#FFD700",
+    "second-color": "rgb(200, 125, 200)",
+    "bg-color": "#1da2d8",
+    "caret-color": "rgba(255, 215, 0, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "shelf",
+    "main-color": "#98FFCC",
+    "second-color": "#6aa087",
+    "bg-color": "#3C4142",
+    "caret-color": "rgba(152, 255, 204, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "solarlight",
+    "main-color": "#657b83",
+    "second-color": "#93a1a1",
+    "bg-color": "#fdf6e3",
+    "caret-color": "rgba(101, 123, 131, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "solardark",
+    "main-color": "#839496",
+    "second-color": "#586e75",
+    "bg-color": "#002b36",
+    "caret-color": "rgba(131, 148, 150, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "ocean",
+    "main-color": "#0077be",
+    "second-color": "#005f87",
+    "bg-color": "#e0f7fa",
+    "caret-color": "rgba(0, 119, 190, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "pastel",
+    "main-color": "#ff6f61",
+    "second-color": "#ffccbc",
+    "bg-color": "#ffffff",
+    "caret-color": "rgba(255, 111, 97, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "forest",
+    "main-color": "#3c763d",
+    "second-color": "#2e542f",
+    "bg-color": "#232c25",
+    "caret-color": "rgba(60, 118, 61, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "sunset",
+    "main-color": "#ff6f30",
+    "second-color": "#ffcc00",
+    "bg-color": "#ffebee",
+    "caret-color": "rgba(255, 111, 48, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "monochrome",
+    "main-color": "#444444",
+    "second-color": "#777777",
+    "bg-color": "#f5f5f5",
+    "caret-color": "rgba(68, 68, 68, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "retro",
+    "main-color": "#ffb74d",
+    "second-color": "#ff8c00",
+    "bg-color": "#fff3e0",
+    "caret-color": "rgba(255, 183, 77, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "night",
+    "main-color": "#3e2723",
+    "second-color": "#6d4c41",
+    "bg-color": "#e1f5fe",
+    "caret-color": "rgba(62, 39, 35, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "crimson",
+    "main-color": "#dc143c",
+    "second-color": "#a00000",
+    "bg-color": "#fff5f5",
+    "caret-color": "rgba(220, 20, 60, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "emerald",
+    "main-color": "#50c878",
+    "second-color": "#2e7d32",
+    "bg-color": "#e8f5e9",
+    "caret-color": "rgba(80, 200, 120, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "sapphire",
+    "main-color": "#0f52ba",
+    "second-color": "#00509e",
+    "bg-color": "#e3f2fd",
+    "caret-color": "rgba(15, 82, 186, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "tangerine",
+    "main-color": "#ff9800",
+    "second-color": "#f57c00",
+    "bg-color": "#fff3e0",
+    "caret-color": "rgba(255, 152, 0, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "turquoise",
+    "main-color": "#40e0d0",
+    "second-color": "#20b2aa",
+    "bg-color": "#e0f7fa",
+    "caret-color": "rgba(64, 224, 208, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "cocoa",
+    "main-color": "#8b4513",
+    "second-color": "#5d3a1a",
+    "bg-color": "#fff8e1",
+    "caret-color": "rgba(139, 69, 19, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "steel",
+    "main-color": "#4682b4",
+    "second-color": "#3b5998",
+    "bg-color": "#e0e0e0",
+    "caret-color": "rgba(70, 130, 180, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "berry",
+    "main-color": "#a52a2a",
+    "second-color": "#7c2d2d",
+    "bg-color": "#fce4ec",
+    "caret-color": "rgba(165, 42, 42, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "nebula",
+    "main-color": "#e65c00",
+    "second-color": "#ffcc66",
+    "bg-color": "linear-gradient(90deg, #1c1c3c, #3b2f60, #462d72)",
+    "caret-color": "rgba(230, 92, 0, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "lava",
+    "main-color": "#ff4500",
+    "second-color": "#b22222",
+    "bg-color": "linear-gradient(90deg, #ff9966, #ff5e62)",
+    "caret-color": "rgba(255, 69, 0, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "aurora",
+    "main-color": "#82caff",
+    "second-color": "#007acc",
+    "bg-color": "linear-gradient(90deg, #001f3f, #00264d, #004d80)",
+    "caret-color": "rgba(130, 202, 255, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "rose",
+    "main-color": "#ff007f",
+    "second-color": "#ff66b2",
+    "bg-color": "#ffe6f2",
+    "caret-color": "rgba(255, 0, 127, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "midnight",
+    "main-color": "#ffffff",
+    "second-color": "#dcdcdc",
+    "bg-color": "#2c3e50",
+    "caret-color": "rgba(255, 255, 255, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "oasis",
+    "main-color": "#66cdaa",
+    "second-color": "#00fa9a",
+    "bg-color": "#e0ffe0",
+    "caret-color": "rgba(102, 205, 170, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "platinum",
+    "main-color": "#e5e5e5",
+    "second-color": "#b3b3b3",
+    "bg-color": "#4d4d4d",
+    "caret-color": "rgba(229, 229, 229, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "sus",
+    "main-color": "#ff0000",
+    "second-color": "blue",
+    "bg-color": "url(https://i.ytimg.com/vi/kXk_jr5sL-Q/maxresdefault.jpg)",
+    "caret-color": "rgba(255, 0, 0, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "skyline",
+    "main-color": "#87ceeb",
+    "second-color": "#4682b4",
+    "bg-color": "#e6f2ff",
+    "caret-color": "rgba(135, 206, 235, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "mystic",
+    "main-color": "#9370db",
+    "second-color": "#8a2be2",
+    "bg-color": "linear-gradient(90deg, #4b0082, #9370db)",
+    "caret-color": "rgba(147, 112, 219, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "sunflower",
+    "main-color": "#ffd700",
+    "second-color": "#ffec8b",
+    "bg-color": "#fffacd",
+    "caret-color": "rgba(255, 215, 0, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "velvet",
+    "main-color": "#800020",
+    "second-color": "#a52a2a",
+    "bg-color": "#ffe6e6",
+    "caret-color": "rgba(128, 0, 32, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "galaxy",
+    "main-color": "#adff2f",
+    "second-color": "#9400d3",
+    "bg-color": "linear-gradient(90deg, #000000, #1c1c3c, #3b2f60)",
+    "caret-color": "rgba(173, 255, 47, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "mint",
+    "main-color": "#98ff98",
+    "second-color": "#32cd32",
+    "bg-color": "#f5fff5",
+    "caret-color": "rgba(152, 255, 152, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "pearl",
+    "main-color": "#d3d3d3",
+    "second-color": "#c0c0c0",
+    "bg-color": "#f8f8f8",
+    "caret-color": "rgba(211, 211, 211, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "glacier",
+    "main-color": "#00ced1",
+    "second-color": "#4682b4",
+    "bg-color": "#e0f7f9",
+    "caret-color": "rgba(0, 206, 209, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "bubblegum",
+    "main-color": "#ff69b4",
+    "second-color": "#ff1493",
+    "bg-color": "#fff0f5",
+    "caret-color": "rgba(255, 105, 180, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "safari",
+    "main-color": "#d2b48c",
+    "second-color": "#cd853f",
+    "bg-color": "#fdf5e6",
+    "caret-color": "rgba(210, 180, 140, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "caramel",
+    "main-color": "#ffb84d",
+    "second-color": "#e68a00",
+    "bg-color": "#fff8e1",
+    "caret-color": "rgba(255, 184, 77, 0.75)",
+    "font": "monospace"
+  },
+  {
+    "name": "royal",
+    "main-color": "#4169e1",
+    "second-color": "#27408b",
+    "bg-color": "#ebf5ff",
+    "caret-color": "rgba(65, 105, 225, 0.75)",
+    "font": "monospace"
+  }
+]
