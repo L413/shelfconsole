@@ -86,7 +86,7 @@ app.get('/get-admin-script', (req, res) => {
   const token = req.headers['authorization'];
 
   if (validTokens.has(token)) {
-    const adminScriptPath = path.join(__dirname, 'savedata/admin.js');
+    const adminScriptPath = path.join(__dirname, 'data/admin.js');
     res.sendFile(adminScriptPath);
   } else {
     res.status(403).send('Unauthorized');
